@@ -1,0 +1,13 @@
+.titleBox {
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #ee57b9;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
