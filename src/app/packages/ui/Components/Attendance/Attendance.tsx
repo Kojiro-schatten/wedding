@@ -15,7 +15,14 @@ export function Attendance() {
       <Box>
         <Title order={5}>お支度について</Title>
         <Box mb={16}>
-          <Closing />
+          <Text fz={'md'}>
+            基本的には、和装・洋装どちらでも問題ございません。
+            <br />
+            札幌の7月平均気温は日中で25°前後となります。
+          </Text>
+          <Box mt={4} pb={16}>
+            <Closing />
+          </Box>
         </Box>
         <Title order={5}>
           当日のスケジュール
@@ -26,7 +33,7 @@ export function Attendance() {
           </Text>
         </Box>
         <Title order={5}>
-          結婚式次第に関して
+          結婚式次第・披露宴の詳細について
         </Title>
         <Box>
           <Link href={'/flow'} style={{ color: '#228be6', textDecoration: 'none' }}>
@@ -44,20 +51,17 @@ function Closing () {
   return (
     <Tabs color="teal" defaultValue="first">
       <TabsList>
-        <TabsTab value="first">レンタル</TabsTab>
-        <TabsTab value="second" color="blue">親族</TabsTab>
-        <TabsTab value="third" color="yellow">友人</TabsTab>
+        <TabsTab value="first">親族</TabsTab>
+        <TabsTab value="second" color="blue">友人</TabsTab>
+        <TabsTab value="third" color="yellow">レンタル</TabsTab>
       </TabsList>
 
       <TabsPanel value="first" pt="md" className={styles.tabsPanel}>
         <Text fz={'md'}>
-          神宮での着付・貸衣裳では、うやまビューティサロン本店と近いです。
+          ・女性の場合、喪服、ワンピース、ドレスなどが推奨されます。
+          <br />
+          ・男性の場合、喪服、燕尾服などが推奨されます。
         </Text>
-        <Link href={'https://uyama.co.jp/'} style={{ color: '#228be6', textDecoration: 'none' }}>
-          <span style={{ borderBottom: '1px solid #228be6' }}>
-            https://uyama.co.jp/
-          </span>
-        </Link>
       </TabsPanel>
 
       <TabsPanel value="second" pt="md" className={styles.tabsPanelSecond}>
@@ -70,10 +74,13 @@ function Closing () {
 
       <TabsPanel value="third" pt="md" className={styles.tabsPanelThird}>
         <Text fz={'md'}>
-          ・女性の場合、喪服、ワンピース、ドレスなどが推奨されます。
-          <br />
-          ・男性の場合、喪服、燕尾服などが推奨されます。
+          神宮での着付・貸衣裳は、うやまビューティサロン本店が近いためそちらをご利用ください。
         </Text>
+        <Link href={'https://uyama.co.jp/'} style={{ color: '#228be6', textDecoration: 'none' }}>
+          <span style={{ borderBottom: '1px solid #228be6' }}>
+            https://uyama.co.jp/
+          </span>
+        </Link>
       </TabsPanel>
     </Tabs>
   )
