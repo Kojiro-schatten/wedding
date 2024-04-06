@@ -7,20 +7,16 @@ import { Footer } from "./packages/ui/Components/Footer/Footer";
 import { PrinceHotelAccessMap } from "./packages/ui/Components/IFrame/PrinceHotelAccessMap";
 import { Profile } from "./packages/ui/Components/Profile/Profile";
 import '@mantine/core/styles.css';
-import { Text, Title } from "@mantine/core";
+import { MantineProvider, Text, Title } from "@mantine/core";
 import { Map } from "./packages/ui/Components/Map/Map";
+import { Attendance } from "./packages/ui/Components/Attendance.tsx/Attendance";
 
 export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Sakura />
-      <Text fz="sm" lh="sm">sm 12px</Text>
-      <Text fz="md" lh="md">md 14px</Text>
-      <Text fz="lg" lh="lg">lg 16px</Text>
-      <Title order={1}>h1 title</Title>
-      <Title order={2}>h2 title</Title>
-      <Title order={3}>h3 title</Title>
+      {/* <Sakura /> */}
+
 
       {/* ヒーロー背景画像 */}
       <div className={styles.hero}>
@@ -37,12 +33,8 @@ export default function Home() {
       <div className={styles.lowerHero}>
         <Greeting />
         <Profile />
+        <Attendance />
         <Map />
-        {/* // <JinguAccessMap />
-        // <div style={{ marginBottom: 40 }}>
-        //   <PrinceHotelAccessMap />
-        // </div> */}
-
       </div>
 
       <Footer />
