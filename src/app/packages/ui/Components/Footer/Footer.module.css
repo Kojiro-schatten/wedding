@@ -1,4 +1,6 @@
 .footer {
+  display: flex;
+  justify-content: flex-end;
   padding: 2rem;
   font-size: 15px;
   color: #999;
@@ -7,11 +9,6 @@
 }
 
 @media (min-width: 768px) {
-  .footer {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .md-flex {
     display: flex;
   }
