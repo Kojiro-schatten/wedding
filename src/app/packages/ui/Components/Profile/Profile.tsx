@@ -9,7 +9,11 @@ export function Profile() {
             - プロフィール -
           </div>
         </div>
+        <div className={styles.description}>
+          影山 康次郎
+          1997/03/20 O型
 
+        </div>
       </div>
     </div>
   )

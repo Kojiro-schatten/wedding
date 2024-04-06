@@ -6,8 +6,10 @@ import { Greeting } from "./packages/ui/Components/Greeting/Greeting";
 import { Footer } from "./packages/ui/Components/Footer/Footer";
 import { PrinceHotelAccessMap } from "./packages/ui/Components/IFrame/PrinceHotelAccessMap";
 import { Profile } from "./packages/ui/Components/Profile/Profile";
+import '@mantine/core/styles.css';
 
 export default function Home() {
+
   return (
     <main className={styles.main}>
       <Sakura />
