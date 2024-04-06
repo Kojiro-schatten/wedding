@@ -33,7 +33,7 @@ export function Attendance() {
           </Text>
         </Box>
         <Title order={5}>
-          結婚式次第・披露宴の詳細について
+          結婚式次第・お食事会の詳細について
         </Title>
         <Box>
           <Link href={'/flow'} style={{ color: '#228be6', textDecoration: 'none' }}>

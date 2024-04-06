@@ -46,7 +46,7 @@ export function Flow() {
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8}}
       >
         <Title order={3}>
-          - 披露宴 -
+          - お食事会 -
         </Title>
       </Box>
       <Box ta={'center'}>
