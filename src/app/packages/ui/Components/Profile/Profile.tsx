@@ -14,25 +14,37 @@ export function Profile() {
           </Title>
         </Box>
         <div className={styles.box}>
-          <Box style={{ borderRadius: 8 }}>
-            <Image alt={'pikachu'} width={200} height={200}
+          <Box className={styles.profile}>
+            <Image alt={'pikachu'} width={240} height={240}
               src={'/Eevee.png'}
             />
             <Text fz={'lg'}>
               影山 康次郎
               <br />
               1997/03/20 O型
+              <br />
+              Webエンジニア
+              <br />
+              僕のライフプランより、相当早いタイミングでの結婚式となりました。
+              <br />
+              結果的に主催して良かったと思えるよう努めます！
             </Text>
           </Box>
 
-          <Box style={{ borderRadius: 8 }}>
-            <Image alt={'pikachu'} width={200} height={200}
+          <Box className={styles.profile}>
+            <Image alt={'pikachu'} width={240} height={240}
               src={'/pikachu.png'}
             />
             <Text fz={'lg'}>
               影山 未来
               <br />
               1997/01/18 O型
+              <br />
+              美容師
+              <br />
+              晴れ舞台に向けて、日々準備中です。
+              <br />
+              当日、皆様にお会いできることを心より楽しみにしています。
             </Text>
           </Box>
 

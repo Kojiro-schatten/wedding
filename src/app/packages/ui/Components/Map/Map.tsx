@@ -22,17 +22,11 @@ export function Map() {
       <Box w={'100%'} mb={16}>
         <Card shadow="sm" padding="lg" radius="md" withBorder>
           <CardSection>
-            {/* <Image
-              src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png"
-              height={160}
-              alt="Norway"
-            /> */}
             <PrinceHotelAccessMap />
           </CardSection>
 
           <Group justify="space-between" mt="md" mb="xs">
             <Text fw={500}>札幌プリンスホテル</Text>
-            <Badge color="pink">〒060-8615</Badge>
           </Group>
 
           <Text size="md" c="dimmed">
@@ -54,7 +48,6 @@ export function Map() {
 
           <Group justify="space-between" mt="md" mb="xs">
             <Text fw={500}>北海道神宮</Text>
-            <Badge color="pink">〒064-8505</Badge>
           </Group>
 
           <Text size="md" c="dimmed">

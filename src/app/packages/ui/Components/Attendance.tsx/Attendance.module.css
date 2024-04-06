@@ -1,0 +1,12 @@
+.tabsPanel {
+  border: 1px solid #12b886;
+  padding: 14px;
+}
+.tabsPanelSecond {
+  border: 1px solid #228be6;
+  padding: 14px;
+}
+.tabsPanelThird {
+  border: 1px solid #fab005;
+  padding: 14px;
+}
