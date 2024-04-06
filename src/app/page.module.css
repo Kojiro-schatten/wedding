@@ -9,9 +9,29 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-bottom: 16px;
 }
 
 .lowerHero {
   margin: 0 16px;
+}
+
+.main {
+  background-image: url('../../public/export.png');
+}
+.heroContainer {
+  max-width: 769px;
+  width: 100%;
+  margin: auto;
+  background: #FFFFFF;
+}
+
+.container {
+  max-width: 769px;
+  width: 100%;
+  margin: auto;
+  background: #FFFFFF;
+  padding: 0 8px ;
+  @media screen and (min-width: 768px) {
+    padding: 16px 20px 0;
+  }
 }
