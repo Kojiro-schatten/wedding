@@ -1,5 +1,6 @@
-import { Box, Title } from "@mantine/core"
+import { Box, Text, Title } from "@mantine/core"
 import styles from "./Profile.module.css"
+import Image from "next/image"
 
 export function Profile() {
   return (
@@ -12,9 +13,28 @@ export function Profile() {
             - プロフィール -
           </Title>
         </Box>
-        <div className={styles.description}>
-          影山 康次郎
-          1997/03/20 O型
+        <div className={styles.box}>
+          <Box style={{ borderRadius: 8 }}>
+            <Image alt={'pikachu'} width={200} height={200}
+              src={'/Eevee.png'}
+            />
+            <Text fz={'lg'}>
+              影山 康次郎
+              <br />
+              1997/03/20 O型
+            </Text>
+          </Box>
+
+          <Box style={{ borderRadius: 8 }}>
+            <Image alt={'pikachu'} width={200} height={200}
+              src={'/pikachu.png'}
+            />
+            <Text fz={'lg'}>
+              影山 未来
+              <br />
+              1997/01/18 O型
+            </Text>
+          </Box>
 
         </div>
       </div>
