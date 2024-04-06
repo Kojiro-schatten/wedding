@@ -1,13 +1,15 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Sakura } from "./packages/ui/Animation/Sakura";
-import { JinguAccessMap } from "./packages/ui/Components/IFrame/JinguAccessMap";
 import { Greeting } from "./packages/ui/Components/Greeting/Greeting";
 import { Footer } from "./packages/ui/Components/Footer/Footer";
 import { Profile } from "./packages/ui/Components/Profile/Profile";
 import '@mantine/core/styles.css';
 import { Map } from "./packages/ui/Components/Map/Map";
-import { Attendance } from "./packages/ui/Components/Attendance.tsx/Attendance";
+import { Attendance } from "./packages/ui/Components/Attendance/Attendance";
+import Link from "next/link";
+import { Button, PinInput } from "@mantine/core";
+import { useEffect, useState } from "react";
 
 export default function Home() {
 
@@ -35,7 +37,6 @@ export default function Home() {
           <Attendance />
           <Map />
         </div>
-
         <Footer />
       </div>
     </main>
