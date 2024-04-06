@@ -8,7 +8,7 @@ const JINGU_LINK = "https://www.google.com/maps?ll=43.054333,141.307793&z=17&t=m
 export function Map() {
   return (
     <Box>
-      <Box c={"red.0"} bg={"rgb(255 241 245)"} mb={16} ml={-17} mr={-17} h={60}
+      <Box c={"red.0"}  mb={16} ml={-17} mr={-17} h={60}
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8}}
       >
         <Title order={3}>
