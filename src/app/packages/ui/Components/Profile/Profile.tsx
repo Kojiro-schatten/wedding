@@ -27,10 +27,10 @@ export function Profile() {
             /> */}
             <Text fz={'lg'}>
               影山 康次郎
-              <br />
-              1997/03/20 O型
-              <br />
-              Webエンジニア
+              <Text fz={'md'}>
+                1997/03/20 O型
+              </Text>
+              職業：Webエンジニア
               <br />
               僕のライフプランより、相当早いタイミングでの結婚式となりました。
               <br />
@@ -44,10 +44,10 @@ export function Profile() {
             /> */}
             <Text fz={'lg'}>
               影山 未来
-              <br />
-              1997/01/18 O型
-              <br />
-              美容師
+              <Text fz={'md'}>
+                1997/01/18 O型
+              </Text>
+              職業：美容師
               <br />
               晴れ舞台に向けて、日々準備中です。
               <br />

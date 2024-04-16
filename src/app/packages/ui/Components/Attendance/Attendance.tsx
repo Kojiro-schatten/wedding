@@ -52,7 +52,7 @@ function Closing () {
     <Tabs color="teal" defaultValue="first">
       <TabsList>
         <TabsTab value="first"><Text fz={'md'}>両親</Text></TabsTab>
-        <TabsTab value="second" color="blue"><Text fz={'md'}>友人</Text></TabsTab>
+        <TabsTab value="second" color="blue"><Text fz={'md'}>親族・友人</Text></TabsTab>
         <TabsTab value="third" color="yellow"><Text fz={'md'}>レンタル</Text></TabsTab>
       </TabsList>
 
