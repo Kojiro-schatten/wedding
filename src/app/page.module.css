@@ -29,7 +29,7 @@
   max-width: 769px;
   width: 100%;
   margin: auto;
-  background: #FFFFFF;
+  background: #F9FCFA;
   padding: 0 8px ;
   @media screen and (min-width: 768px) {
     padding: 16px 20px 0;

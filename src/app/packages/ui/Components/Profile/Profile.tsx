@@ -13,11 +13,18 @@ export function Profile() {
             - プロフィール -
           </Title>
         </Box>
+        <div>
+          <Image alt={'わたしたち'} width={700} height={500}
+            src={'/we.jpg'}
+            style={{ width: '100%', height: 'auto' }}
+          />
+        </div>
         <div className={styles.box}>
           <Box className={styles.profile}>
-            <Image alt={'pikachu'} width={240} height={240}
+
+            {/* <Image alt={'pikachu'} width={240} height={240}
               src={'/Eevee.png'}
-            />
+            /> */}
             <Text fz={'lg'}>
               影山 康次郎
               <br />
@@ -32,9 +39,9 @@ export function Profile() {
           </Box>
 
           <Box className={styles.profile}>
-            <Image alt={'pikachu'} width={240} height={240}
+            {/* <Image alt={'pikachu'} width={240} height={240}
               src={'/pikachu.png'}
-            />
+            /> */}
             <Text fz={'lg'}>
               影山 未来
               <br />

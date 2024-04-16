@@ -16,7 +16,7 @@ export function Map() {
         </Title>
       </Box>
       <Box w={70} ml={'auto'} mt={-70}>
-        <Image src="http://a.top4top.net/p_1990j031.gif" alt="Loading"></Image>
+        <Image src="/pikachuGif.gif" alt="Loading"></Image>
       </Box>
 
       <Box w={'100%'} mb={16}>
