@@ -3,7 +3,7 @@ import { Inter, Shippori_Mincho } from "next/font/google";
 import { ColorSchemeScript, MantineProvider, rem } from '@mantine/core';
 
 export const metadata: Metadata = {
-  title: "2024/07/07 神前式",
+  title: "結婚式のご案内",
   description: "",
 };
 
