@@ -51,24 +51,24 @@ function Closing () {
   return (
     <Tabs color="teal" defaultValue="first">
       <TabsList>
-        <TabsTab value="first">親族</TabsTab>
-        <TabsTab value="second" color="blue">友人</TabsTab>
-        <TabsTab value="third" color="yellow">レンタル</TabsTab>
+        <TabsTab value="first"><Text fz={'md'}>両親</Text></TabsTab>
+        <TabsTab value="second" color="blue"><Text fz={'md'}>友人</Text></TabsTab>
+        <TabsTab value="third" color="yellow"><Text fz={'md'}>レンタル</Text></TabsTab>
       </TabsList>
 
       <TabsPanel value="first" pt="md" className={styles.tabsPanel}>
         <Text fz={'md'}>
-          ・女性の場合、喪服、ワンピース、ドレスなどが推奨されます。
+          ・女性の場合、色留袖、アフタヌーンドレスなどが推奨されます。
           <br />
-          ・男性の場合、喪服、燕尾服などが推奨されます。
+          ・男性の場合、着物、モーニングコートなどが推奨されます。
         </Text>
       </TabsPanel>
 
       <TabsPanel value="second" pt="md" className={styles.tabsPanelSecond}>
         <Text fz={'md'}>
-          ・女性の場合、喪服、ワンピース、ドレスなどが推奨されます。
+          ・女性の場合、訪問着、ワンピース、ドレスなどが推奨されます。
           <br />
-          ・男性の場合、喪服、燕尾服などが推奨されます。
+          ・男性の場合、着物、スーツなどが推奨されます。
         </Text>
       </TabsPanel>
 
