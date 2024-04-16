@@ -25,12 +25,39 @@ export function Attendance() {
           </Box>
         </Box>
         <Title order={5}>
-          当日のスケジュール
+          7/7のスケジュール
         </Title>
         <Box mb={16}>
-          <Text fz={'md'}>
-            7/7
-          </Text>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                <th className={styles.th}>時間</th>
+                <th className={styles.th}>イベント</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td className={styles.td}>10:45</td>
+                  <td className={styles.td}>プリンスホテル出発 (バス)</td>
+              </tr>
+              <tr>
+                  <td className={styles.td}>12:00</td>
+                  <td className={styles.td}>神前式 開始</td>
+              </tr>
+              <tr>
+                  <td className={styles.td}>13:00</td>
+                  <td className={styles.td}>神前式 終了</td>
+              </tr>
+              <tr>
+                  <td className={styles.td}>14:00</td>
+                  <td className={styles.td}>お食事会 開始</td>
+              </tr>
+              <tr>
+                  <td className={styles.td}>16:30</td>
+                  <td className={styles.td}>お食事会 終了</td>
+              </tr>
+            </tbody>
+          </table>
         </Box>
         <Title order={5}>
           結婚式次第・お食事会の詳細について

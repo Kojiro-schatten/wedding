@@ -10,3 +10,17 @@
   border: 1px solid #fab005;
   padding: 14px;
 }
+
+.table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+.th, .td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.th {
+  background-color: #f2f2f2;
+}
