@@ -80,7 +80,7 @@ function Closing () {
       <TabsList>
         <TabsTab value="first"><Text fz={'md'}>両親</Text></TabsTab>
         <TabsTab value="second" color="blue"><Text fz={'md'}>親族・友人</Text></TabsTab>
-        <TabsTab value="third" color="yellow"><Text fz={'md'}>レンタル</Text></TabsTab>
+        {/* <TabsTab value="third" color="yellow"><Text fz={'md'}>レンタル</Text></TabsTab> */}
       </TabsList>
 
       <TabsPanel value="first" pt="md" className={styles.tabsPanel}>
@@ -98,9 +98,12 @@ function Closing () {
           ・男性の場合、着物、スーツなどが推奨されます。
         </Text>
       </TabsPanel>
-
+{/*
       <TabsPanel value="third" pt="md" className={styles.tabsPanelThird}>
         <Text fz={'md'}>
+          レンタルの場合、新郎新婦どちらかにご相談するとスムーズです。
+          <br />
+          あるいは、札幌市中央区内のレンタル業者をお探しください。
           神宮での着付・貸衣裳は、うやまビューティサロン本店が近いためそちらをご利用ください。
         </Text>
         <Link href={'https://uyama.co.jp/'} style={{ color: '#228be6', textDecoration: 'none' }}>
@@ -108,7 +111,7 @@ function Closing () {
             https://uyama.co.jp/
           </span>
         </Link>
-      </TabsPanel>
+      </TabsPanel> */}
     </Tabs>
   )
 }
