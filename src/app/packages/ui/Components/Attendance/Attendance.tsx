@@ -1,6 +1,7 @@
 import { Box, Tabs, TabsList, TabsPanel, TabsTab, Text, Title } from "@mantine/core";
 import styles from "./Attendance.module.css"
 import Link from "next/link";
+import Image from "next/image";
 
 export function Attendance() {
   return (
@@ -28,7 +29,10 @@ export function Attendance() {
           7/7のスケジュール
         </Title>
         <Box mb={16}>
-          <table className={styles.table}>
+          <Box mt={16} ta={'center'}>
+            <Image src={"/schedule.png"} alt="schedule" width={300} height={450} />
+          </Box>
+          {/* <table className={styles.table}>
             <thead>
               <tr>
                 <th className={styles.th}>時間</th>
@@ -57,7 +61,7 @@ export function Attendance() {
                   <td className={styles.td}>お食事会 終了</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
         </Box>
         <Title order={5}>
           結婚式次第・お食事会の詳細について
