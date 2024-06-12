@@ -5,7 +5,7 @@ import Image from "next/image"
 export function Flow() {
   return (
     <Box mb={30}>
-      <Box c={"red.0"} mb={16} h={60}
+      <Box c={"blue.0"} mb={16} h={60}
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8}}
       >
         <Title order={3}>
@@ -42,7 +42,7 @@ export function Flow() {
         </Text>
       </Box>
 
-      <Box c={"red.0"}  mb={16} h={60}
+      <Box c={"blue.0"}  mb={16} h={60}
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8}}
       >
         <Title order={3}>

@@ -10,6 +10,7 @@ import { Attendance } from "./packages/ui/Components/Attendance/Attendance";
 import Link from "next/link";
 import { Button, PinInput } from "@mantine/core";
 import { useEffect, useState } from "react";
+import { Fee } from "./packages/ui/Components/Fee/Fee";
 
 export default function Home() {
 
@@ -33,6 +34,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.lowerHero}>
           <Greeting />
+          <Fee />
           <Profile />
           <Attendance />
           <Map />

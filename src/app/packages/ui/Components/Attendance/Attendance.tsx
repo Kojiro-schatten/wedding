@@ -6,7 +6,7 @@ import Image from "next/image";
 export function Attendance() {
   return (
     <Box mb={30}>
-      <Box c={"red.0"}  mb={16} ml={-17} mr={-17} h={60}
+      <Box c={"blue.0"}  mb={16} ml={-17} mr={-17} h={60}
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8}}
       >
         <Title order={3}>
@@ -25,9 +25,6 @@ export function Attendance() {
             <Closing />
           </Box>
         </Box>
-        <Title order={5}>
-          7/7のスケジュール
-        </Title>
         <Box mb={16}>
           <Box mt={16} ta={'center'}>
             <Image src={"/schedule.png"} alt="schedule" width={300} height={450} />
@@ -102,20 +99,6 @@ function Closing () {
           ・男性の場合、着物、スーツなどが推奨されます。
         </Text>
       </TabsPanel>
-{/*
-      <TabsPanel value="third" pt="md" className={styles.tabsPanelThird}>
-        <Text fz={'md'}>
-          レンタルの場合、新郎新婦どちらかにご相談するとスムーズです。
-          <br />
-          あるいは、札幌市中央区内のレンタル業者をお探しください。
-          神宮での着付・貸衣裳は、うやまビューティサロン本店が近いためそちらをご利用ください。
-        </Text>
-        <Link href={'https://uyama.co.jp/'} style={{ color: '#228be6', textDecoration: 'none' }}>
-          <span style={{ borderBottom: '1px solid #228be6' }}>
-            https://uyama.co.jp/
-          </span>
-        </Link>
-      </TabsPanel> */}
     </Tabs>
   )
 }

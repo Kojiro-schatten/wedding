@@ -56,7 +56,8 @@ export default function RootLayout({
             },
             colors: {
               'red': ['#F72869', '#EF3269', '#ED4401', '#EC4401', '#EB4401', '#EA4401', '#EA4401', '#EA4401', '#EA4401', '#EA4401'],
-              'bright-pink': ['#F0BBDD', '#ED9BCF', '#EC7CC3', '#ED5DB8', '#F13EAF', '#F71FA7', '#FF00A1', '#E00890', '#C50E82', '#AD1374'],
+              'blue': ['#1c7ed6', '#1c7ed6', '#1c7ed6', '#1c7ed6', '#1c7ed6', '#1c7ed6', '#1c7ed6', '#1c7ed6', '#1c7ed6', '#1c7ed6'],
+              // 'bright-pink': ['#F0BBDD', '#ED9BCF', '#EC7CC3', '#ED5DB8', '#F13EAF', '#F71FA7', '#FF00A1', '#E00890', '#C50E82', '#AD1374'],
             },
           }}
         >
