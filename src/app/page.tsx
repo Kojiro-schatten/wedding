@@ -11,6 +11,7 @@ import Link from "next/link";
 import { Button, PinInput } from "@mantine/core";
 import { useEffect, useState } from "react";
 import { Fee } from "./packages/ui/Components/Fee/Fee";
+import { Table } from "./packages/ui/Components/Table/Table";
 
 export default function Home() {
 
@@ -35,6 +36,7 @@ export default function Home() {
         <div className={styles.lowerHero}>
           <Greeting />
           <Fee />
+          <Table />
           <Profile />
           <Attendance />
           <Map />
