@@ -14,7 +14,9 @@ export function Table() {
       </Box>
 
       <Box maw={700}>
-        <Image src={"/sekizi.png"} alt="sekizi" width={700} height={350} />
+        <Image src={"/sekizi.png"} alt="sekizi" width={700} height={350}
+                    style={{ width: '100%', height: 'auto' }}
+        />
 
       </Box>
     </Box>
